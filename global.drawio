@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T18:52:39.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" version="14.6.0" etag="F54uCr8YuYETq_hRmO7Q" type="github"><diagram id="FixbhbbnFA4CbBQoyVb_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-17T19:10:25.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="KWNPi9wmH-VQ9uPo3Dzc" version="14.6.0" type="github">
+  <diagram id="FixbhbbnFA4CbBQoyVb_" name="Page-1">
+    <mxGraphModel dx="1298" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-1" value="Пользовательский &#xa;интерфейс" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-2" value="UnityEngine.GUI" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-3" value="UnityEngine&#xa;MonoBehaviour&#xa;Library" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-4" value="AStar Pathfinding&#xa;Plugin" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-7" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydTSr7Dts5HVAcRjro4z-1" target="ydTSr7Dts5HVAcRjro4z-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-12" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydTSr7Dts5HVAcRjro4z-4" target="ydTSr7Dts5HVAcRjro4z-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="374" y="275" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-13" value="Unity Scripting&#xa;API" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-14" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ydTSr7Dts5HVAcRjro4z-3" target="ydTSr7Dts5HVAcRjro4z-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="424" y="255" as="sourcePoint" />
+            <mxPoint x="490" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydTSr7Dts5HVAcRjro4z-15" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ydTSr7Dts5HVAcRjro4z-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="sourcePoint" />
+            <mxPoint x="380" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
